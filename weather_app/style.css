@@ -1,0 +1,43 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column; /* الديف بتكون تحت بعض*/
+  justify-content: center; /* العناصر بتكون في النص لكن بالنسبه للفليكس وليس الشاشه*/
+  align-items: center; /*بيخليها في نص الشاشه*/
+  background: rgb(78, 149, 255);
+  color:whitesmoke;
+}
+
+.location,.temperutare {
+  height: 30vh;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.temperature {
+  flex-direction: column;
+}
+.degree-section {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.degree-section h2 {
+  font-size: 40px;
+}
+.degree-section span{
+  margin: 10px;
+  font-size: 30px;
+}
+.temp-description {
+  font-size: 30px;
+  margin: 30px 0 0 0;
+   
+}
